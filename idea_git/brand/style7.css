@@ -1,3 +1,9 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 * {
   font-family: "Noto Sans KR", sans-serif;
   list-style: none;
@@ -19,19 +25,23 @@
   margin-top: 24px;
 }
 
+img.logo_img {
+  margin-left: 2em;
+}
+
 .search_area {
-  width: 950px;
+  width: 50%;
   height: 40px;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(66, 65, 65, 0.267);
   border-radius: 5px;
   margin-top: 24px;
   margin-right: 70px;
 }
 
 .search_area > form > input {
+  width: 90%;
   border: none;
   background-color: rgba(0, 0, 0, 0.5);
-  width: 630px;
   height: 40px;
   padding-left: 10px;
 }
@@ -44,10 +54,8 @@
 }
 
 .sign {
-  width: 80px;
   height: 30px;
-  background-color: skyblue;
-  color: black;
+  color: gray;
   margin: 30px;
   font-size: 12px;
   line-height: 30px;
@@ -56,14 +64,22 @@
 }
 
 .banner {
+  margin-top: 1em;
+  width: 100%;
   display: flex;
   justify-content: flex-start;
   width: 1280px;
   line-height: 86px;
+  align-items: center;
+}
+.banner > li {
+  width: 100%;
 }
 
-.banner > li {
-  margin-left: 183px;
+.banner > li > div {
+  text-align: center;
+  line-height: 50px;
+  border-right: 1px solid #e1e1e1;
 }
 .post img {
   width: 80%;
@@ -73,11 +89,13 @@
   display: flex;
   flex-grow: 4;
   flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
+  justify-content: space-around;
+
   flex: 0 0 auto;
   width: 100%;
   margin-bottom: 10%;
+  margin-top: 10%;
+  text-align: center;
 }
 .post p {
   align-items: center;
