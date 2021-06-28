@@ -1,0 +1,165 @@
+* {
+    font-family: "Noto Sans KR", sans-serif;
+    list-style: none;
+    text-decoration: none;
+    border-collapse: collapse;
+    margin: 0px;
+    padding: 0px;
+    color: black;
+}
+  
+.header {
+display: flex;
+width: 1280px;
+margin: auto;
+}
+
+.logo {
+margin-right: 100px;
+margin-top: 24px;
+}
+
+.search_area {
+width: 950px;
+height: 40px;
+background: rgba(0, 0, 0, 0.5);
+border-radius: 5px;
+margin-top: 24px;
+margin-right: 70px;
+}
+
+.search_area > form > input {
+border: none;
+background-color: rgba(0, 0, 0, 0.5);
+width: 630px;
+height: 40px;
+padding-left: 10px;
+}
+
+.search_area > form > span {
+width: 10px;
+color: black;
+font-weight: bold;
+cursor: pointer;
+}
+
+.more {
+width: 80px;
+height: 30px;
+background-color: skyblue;
+color: black;
+margin: 30px;
+font-size: 12px;
+line-height: 30px;
+text-align: center;
+margin-right: 5px;
+}
+
+.banner {
+display: flex;
+justify-content: flex-start;
+width: 1280px;
+line-height: 86px;
+}
+
+.banner > li {
+margin-left: 183px;
+}
+
+.intro_text {
+width: 100%;
+margin: 231px auto 231px auto;
+text-align: center;
+}
+
+.intro_text > h1,
+.intro_text > h4 {
+color: #fff;
+}
+
+
+/*dailyhit*/
+
+
+.dailyhit {
+background-color:#fff;
+}
+
+.dailyhit > h1 {
+padding-top: 80px;
+text-align: center;
+}
+
+.dailyhit > h4 {
+text-align: center;
+}
+
+.dailyhit > span {
+    border:2px solid black;
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+    position: absolute;
+    left: 1200px;
+    cursor: pointer;
+}
+
+.dailyhit_image {
+display: flex;
+width: 1280px;
+margin: auto;
+margin-top: 50px;
+}
+
+.dailyhit_image > li {
+flex: 1;
+height: 550px;
+width: 550px;
+background-color: #fff;
+margin-top: 49px;
+text-align: center;
+}
+
+.dailyhit_image > li:not(:last-child) {
+margin-right: 10px;
+}
+
+.dailyhit_image > li > .icon_image {
+margin-top: 0px;
+cursor: pointer;
+}
+
+
+.dailyhit_image h6 {
+    width: 240px;
+    margin: auto;
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 20px;
+    padding: 10px 20px 10px 20px;
+    background-color: #f1f2f3;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.dailyhit_image > li > .heart_pos {
+    padding-top: 20px;
+}
+
+.dailyhit_image > li > .heart_pos > .heart {
+    color: red;
+    transition: color.5s;
+    font-size: 25px;
+    cursor: pointer;
+}
+.dailyhit_image > li > .heart_pos > .heart:hover {
+    color: #D85AAE;
+
+}
+
+.dailyhit_image > li > .heart_pos > span {
+    font-size: 25px;
+}
+
+.icon_image:hover {
+    opacity: 0.5;
+    transition: opacity.5s linear;
+  }
