@@ -58,6 +58,7 @@
   margin-right: 100px;
   margin-top: 24px;
 }
+
 img.logo_img {
   margin-left: 2em;
 }
@@ -88,7 +89,6 @@ img.logo_img {
 
 .sign {
   height: 30px;
-
   color: gray;
   margin: 30px;
   font-size: 12px;

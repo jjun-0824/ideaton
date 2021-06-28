@@ -1,3 +1,9 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 * {
   font-family: "Noto Sans KR", sans-serif;
   list-style: none;
@@ -7,31 +13,6 @@
   padding: 0px;
   color: black;
 }
-
-h1 {
-  font-size: 48px;
-  font-weight: 100px;
-}
-
-h3 {
-  font-size: 24px;
-}
-
-h4 {
-  font-size: 20px;
-  font-weight: lighter;
-}
-
-h5 {
-  font-size: 18px;
-  font-weight: bold;
-}
-
-h6 {
-  font-size: 14px;
-  font-weight: lighter;
-}
-/* 기본 설정 끝 */
 
 .header {
   display: flex;
@@ -44,19 +25,23 @@ h6 {
   margin-top: 24px;
 }
 
+img.logo_img {
+  margin-left: 2em;
+}
+
 .search_area {
-  width: 950px;
+  width: 50%;
   height: 40px;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(66, 65, 65, 0.267);
   border-radius: 5px;
   margin-top: 24px;
   margin-right: 70px;
 }
 
 .search_area > form > input {
+  width: 90%;
   border: none;
   background-color: rgba(0, 0, 0, 0.5);
-  width: 630px;
   height: 40px;
   padding-left: 10px;
 }
@@ -69,10 +54,8 @@ h6 {
 }
 
 .sign {
-  width: 80px;
   height: 30px;
-  background-color: skyblue;
-  color: black;
+  color: gray;
   margin: 30px;
   font-size: 12px;
   line-height: 30px;
@@ -81,13 +64,20 @@ h6 {
 }
 
 .banner {
+  margin-top: 1em;
+  width: 100%;
   display: flex;
   justify-content: flex-start;
   width: 1280px;
   line-height: 86px;
+  align-items: center;
+}
+.banner > li {
+  width: 100%;
 }
 
-.banner > li {
-  margin-left: 183px;
+.banner > li > div {
+  text-align: center;
+  line-height: 50px;
+  border-right: 1px solid #e1e1e1;
 }
-/* 배너 끝 */
