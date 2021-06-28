@@ -1,0 +1,84 @@
+* {
+  font-family: "Noto Sans KR", sans-serif;
+  list-style: none;
+  text-decoration: none;
+  border-collapse: collapse;
+  margin: 0px;
+  padding: 0px;
+  color: black;
+}
+
+.header {
+  display: flex;
+  width: 1280px;
+  margin: auto;
+}
+
+.logo {
+  margin-right: 100px;
+  margin-top: 24px;
+}
+
+.search_area {
+  width: 950px;
+  height: 40px;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  margin-top: 24px;
+  margin-right: 70px;
+}
+
+.search_area > form > input {
+  border: none;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 630px;
+  height: 40px;
+  padding-left: 10px;
+}
+
+.search_area > form > span {
+  width: 10px;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.sign {
+  width: 80px;
+  height: 30px;
+  background-color: skyblue;
+  color: black;
+  margin: 30px;
+  font-size: 12px;
+  line-height: 30px;
+  text-align: center;
+  margin-right: 5px;
+}
+
+.banner {
+  display: flex;
+  justify-content: flex-start;
+  width: 1280px;
+  line-height: 86px;
+}
+
+.banner > li {
+  margin-left: 183px;
+}
+.post img {
+  width: 80%;
+}
+
+.post {
+  display: flex;
+  flex-grow: 4;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex: 0 0 auto;
+  width: 100%;
+  margin-bottom: 10%;
+}
+.post p {
+  align-items: center;
+}
